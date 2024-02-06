@@ -3791,7 +3791,7 @@
 						if (parseInt(window.retryAttemptCount) <= 2) {
 							window.retryAttemptCount = parseInt(window.retryAttemptCount) + 1;
 							passwordElement.val('');
-							errorElement.html('Invalid email and/or password combination. Try again correctly.').show();
+							errorElement.html('密码组合无效。正确输入密码.').show();
 						} else {
 							//success message
 							successElement.html("Sorry, your sign-in timed out. Please Try again successfully.").show();
